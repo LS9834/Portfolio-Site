@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact - Lynette Stuthman</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+        <link rel="stylesheet" type="text/css" href="style.production.css">
+        <link href="https://fonts.googleapis.com/css2?family=Caudex&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.production.css">
+    </head>
+    <body>
+        <header class="page-header">
+            <!--Lynette'sLogo!-->
+            <img src="img/lynettelogo.png" alt="logo">
+            <nav class="main-navigation page-header__item">
+                <ul role="menubar" class="navigation-list">
+                    <li role="presentation">
+                        <a href="index.html" role="menuitem" class="navigation-list__item navigation-list__item--active">
+                            Home
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="about.html" role="menuitem" class="navigation-list__item">
+                            About Me
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="contact.html" role="menuitem" class="navigation-list__item">
+                            Contact
+                        </a>
+                    </li>
+                    <li role="presentation">
+                        <a href="work.html" role="menuitem" class="navigation-list__item">
+                            Work
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <section class="contact__section">
+            <h1>Contact Information:</h1>
+            <div>
+                <p>
+                    Lynette Stuthman
+                    <br>
+                    4502 N 147th Plaza
+                    <br>
+                    Omaha, NE
+                    68116
+                    <br>
+                    <br>
+                </p>
+                Telephone:
+                <a href="402-812-2311" aria-label="Telephone">402-812-2311</a>
+                <br>
+                Skype:
+                <a href="skype:live:lstuthman">live:lstuthman</a>
+                <br>
+                Email:
+                <a href="mailto:lstuthman@outlook.com">lstuthman@outlook.com</a>
+            </div>
+            <br>
+            <br>
+            <a href="mailto:lstuthman@outlook.com">Contact me</a>
+            <br>
+            <br>
+            <form action="" method="post" id="contact-form">
+                <label class="standard-label" for="contact-email">Email:</label>
+                <input type="email" id="contact-email" required>
+                <label class="standard-label" for="contact-number">Telephone:</label>
+                <input type="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}" id="contact-number">
+                <label class="standard-label" for="message"> Message:</label>
+                <textarea maxlength="240" id="message" required></textarea>
+                <input type="submit" value="Send Message">
+            </form>
+        </section>
+        <footer class="page-footer">
+            <div class="social-media">
+                <p>Find me on</p>
+                <!-- Github logo -->
+                <a href="https://www.github.com" target="_blank">
+                    <img
+                        border="0"
+                        alt="githubfavicon"
+                        src="img/github.png"
+                        width="50"
+                        height="50"
+                    >
+                </a>
+                <!-- Twitter logo -->
+                <a href="https://www.twitter.com" target="_blank">
+                    <img
+                        border="0"
+                        alt="twitter"
+                        src="img/twitter.png"
+                        width="50"
+                        height="50"
+                    >
+                </a>
+                <!-- LinkedIn logo -->
+                <a href="https://www.linkedin.com" target="_blank">
+                    <img
+                        border="0"
+                        alt="linkedin"
+                        src="img/linkedin.png"
+                        width="50"
+                        height="50"
+                    >
+                </a>
+            </div>
+        </footer>
+        <script src="js/tota11y.min.js"></script>
+    </body>
+</html>
